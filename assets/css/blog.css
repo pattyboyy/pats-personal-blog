@@ -46,3 +46,23 @@
     cursor: pointer;
     margin-left: 10px;
 }
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode header {
+    background-color: #222;
+}
+
+body.dark-mode .blog-post {
+    background-color: #444;
+}
+
+body.dark-mode #theme-toggle,
+body.dark-mode #back-button {
+    background-color: #555;
+    color: #fff;
+}
